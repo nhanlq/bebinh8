@@ -1,0 +1,12 @@
+name: ZT Mega Menu
+type: module
+description: Module that helps in altering the menu styles, includes blocks in the menu tails.
+# core: 8.x
+package: MENUS
+configure: zt_megamenu.settings_form
+
+# Information added by Drupal.org packaging script on 2018-06-19
+version: '8.x-1.1'
+core: '8.x'
+project: 'zt_megamenu'
+datestamp: 1529383727

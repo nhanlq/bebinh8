@@ -1,0 +1,5 @@
+name: 'Be Binh'
+type: module
+description: 'Bebinh customization'
+core: 8.x
+package: 'Bebinh'

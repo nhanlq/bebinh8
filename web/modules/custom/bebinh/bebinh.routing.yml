@@ -1,0 +1,27 @@
+
+bebinh.user_settings:
+  path: '/bebinh/form/user_settings'
+  defaults:
+    _form: '\Drupal\bebinh\Form\UserSettings'
+    _title: 'UserSettings'
+  requirements:
+    _access: 'TRUE'
+  
+
+bebinh.upload_image_form:
+  path: '/admin/bebinh/upload_image'
+  defaults:
+    _form: '\Drupal\bebinh\Form\UploadImageForm'
+    _title: 'UploadImageForm'
+  requirements:
+    _access: 'TRUE'
+  
+
+bebinh.update_product_form:
+  path: '/admin/bebinh/update_product'
+  defaults:
+    _form: '\Drupal\bebinh\Form\UpdateProductForm'
+    _title: 'UpdateProductForm'
+  requirements:
+    _access: 'TRUE'
+  

@@ -1,0 +1,31 @@
+services:
+  bebinh.bebinh_migrate_taxonomy:
+    class: Drupal\bebinh\Command\MigrateTaxonomyCommand
+    arguments: []
+    tags:
+      - { name: drupal.command }
+  bebinh.bebinh_product:
+    class: Drupal\bebinh\Command\ProductCommand
+    arguments: []
+    tags:
+      - { name: drupal.command }
+  bebinh.bebinh_importexcel:
+    class: Drupal\bebinh\Command\ImportExcelCommand
+    arguments: []
+    tags:
+      - { name: drupal.command }
+  bebinh.bebinh_mailchimp:
+    class: Drupal\bebinh\Command\MailChimpCommand
+    arguments: []
+    tags:
+      - { name: drupal.command }
+  bebinh.bebinh_redirect_node:
+    class: Drupal\bebinh\Command\RedirectNodeCommand
+    arguments: []
+    tags:
+      - { name: drupal.command }
+  bebinh.bebinh_redirect_term:
+    class: Drupal\bebinh\Command\RedirectTermCommand
+    arguments: []
+    tags:
+      - { name: drupal.command }
