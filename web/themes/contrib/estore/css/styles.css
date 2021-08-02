@@ -10265,10 +10265,6 @@ article.commerce-product.full .product-right .product-title {
 }
 
 article.commerce-product.full .product-right .field--name-price {
-  position: absolute;
-  z-index: 10;
-  top: 0;
-  right: 15px;
   color: #00a9e0;
   font-size: 20px;
   font-weight: bold;
@@ -10818,4 +10814,8 @@ a {
 label,
 .field--label {
   color: #333;
+}
+.block-relate-product-block #views-bootstrap-products-block-1 .col-lg-3{
+  height: 300px;
+  margin-bottom: 20px;
 }
